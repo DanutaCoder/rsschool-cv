@@ -1,3 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.mainHeading {
+    color: rgb(30, 23, 164);
+}
+
+.navigation__list {
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: rgb(77, 74, 74);
+    font-weight: 700;
+}
+
 .logo {
     width: 30px;
 }
